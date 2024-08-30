@@ -1,0 +1,47 @@
+{
+    "editor": {
+        "insert_spaces": true
+    },
+    "files": {
+        "exclude": [
+            "**/.build",
+            "**/*.hex",
+            "**/*.bin",
+            "**/*.uf2"
+        ],
+        "associations": {
+            "*.h": "c",
+            "*.c": "c",
+            "*.inc": "c",
+            "*.cpp": "cpp",
+            "*.hpp": "cpp",
+            "xstddef": "c",
+            "type_traits": "c",
+            "utility": "c",
+            "ranges": "c"
+        }
+    },
+    "language_overrides": {
+        "markdown": {
+            "editor": {
+                "trim_auto_whitespace": false
+            },
+            "files": {
+                "trim_trailing_whitespace": false
+            }
+        },
+        "json": {
+            "editor": {
+                "format_on_save": false
+            }
+        }
+    },
+    "lsp": {
+        "clangd": {
+            "arguments": [
+                "--header-insertion=never",
+                "--compile-commands-dir=/Volumes/External/Development/.clangd/"
+            ]
+        }
+    }
+}
